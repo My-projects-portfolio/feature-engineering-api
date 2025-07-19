@@ -1,27 +1,28 @@
-# 🧠 Feature Engineering API + ML Models
+# Project Overview: Customer Loan Feature Engineering API
+🧠 Project Objective
+The aim of this project is to build a robust Feature Engineering API that transforms raw customer loan data into structured, machine-learning-ready features. These features are critical for downstream tasks such as default prediction, customer segmentation, and loan forecasting.
 
-This project builds a real-world, end-to-end system that:
-- 🧰 Processes customer loan records through feature engineering
-- 🚀 Exposes the logic via a FastAPI web service
-- 🤖 Trains three types of machine learning models:
-  - Classification: Predict loan default
-  - Clustering: Segment customers
-  - Regression: Predict ideal loan size
+Using FastAPI, the project delivers an accessible interface for submitting customer data and retrieving engineered features in real-time — a practical step toward building data-driven decision systems in finance or retail.
 
-It’s designed to simulate how modern businesses (like fintech or retailers) can become **more data-driven** using predictive modeling and behavior profiling.
+🎯 Business Use Case
+Businesses (such as lenders, fintechs, or retailers offering credit) often collect transactional loan data. This data, while rich, must be pre-processed and transformed before it can be used effectively in machine learning models.
 
----
+This API helps automate that transformation by:
 
-## 📌 Project Purpose
+Aggregating customer-level statistics
 
-Many companies want to:
-- Predict customer **churn**, **risk**, or **default**
-- Optimize **loan offerings** or **pricing**
-- Segment customers based on financial behavior
+Engineering new predictive features
 
-This project offers a framework for doing all of the above using Python, FastAPI, and scikit-learn — with clean code, data handling, and model training.
+Returning clean, structured output ready for modeling
 
----
+🔧 Technical Goals
+Build a modular Python service for automated feature engineering
+
+Expose it via REST API endpoints using the FastAPI framework
+
+Prepare the engineered dataset for ML tasks like classification, regression, and clustering
+
+
 
 ## 🛠️ Features
 
