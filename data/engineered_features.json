@@ -1,0 +1,1004 @@
+{
+  "features": [
+    {
+      "customer_ID": "1090",
+      "amount_sum": 2426,
+      "amount_mean": 2426,
+      "amount_count": 1,
+      "fee_mean": 199,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 41333
+    },
+    {
+      "customer_ID": "1159",
+      "amount_sum": 2581,
+      "amount_mean": 2581,
+      "amount_count": 1,
+      "fee_mean": 117,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 46330
+    },
+    {
+      "customer_ID": "124",
+      "amount_sum": 785,
+      "amount_mean": 785,
+      "amount_count": 1,
+      "fee_mean": 173,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 69246
+    },
+    {
+      "customer_ID": "1241",
+      "amount_sum": 2888,
+      "amount_mean": 2888,
+      "amount_count": 1,
+      "fee_mean": 75,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 36275
+    },
+    {
+      "customer_ID": "125",
+      "amount_sum": 2626,
+      "amount_mean": 2626,
+      "amount_count": 1,
+      "fee_mean": 124,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 77110
+    },
+    {
+      "customer_ID": "1265",
+      "amount_sum": 4568,
+      "amount_mean": 1522.6666666666667,
+      "amount_count": 3,
+      "fee_mean": 96.33333333333333,
+      "loan_status_mean": 0.3333333333333333,
+      "term_<lambda>": "short",
+      "annual_income_first": 43882
+    },
+    {
+      "customer_ID": "1280",
+      "amount_sum": 2646,
+      "amount_mean": 1323,
+      "amount_count": 2,
+      "fee_mean": 126,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 75523
+    },
+    {
+      "customer_ID": "1361",
+      "amount_sum": 4661,
+      "amount_mean": 2330.5,
+      "amount_count": 2,
+      "fee_mean": 165,
+      "loan_status_mean": 0.5,
+      "term_<lambda>": "short",
+      "annual_income_first": 47342
+    },
+    {
+      "customer_ID": "1372",
+      "amount_sum": 2096,
+      "amount_mean": 2096,
+      "amount_count": 1,
+      "fee_mean": 158,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 74938
+    },
+    {
+      "customer_ID": "1394",
+      "amount_sum": 2308,
+      "amount_mean": 2308,
+      "amount_count": 1,
+      "fee_mean": 65,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 31704
+    },
+    {
+      "customer_ID": "1436",
+      "amount_sum": 3845,
+      "amount_mean": 1922.5,
+      "amount_count": 2,
+      "fee_mean": 184,
+      "loan_status_mean": 0.5,
+      "term_<lambda>": "long",
+      "annual_income_first": 58256
+    },
+    {
+      "customer_ID": "1512",
+      "amount_sum": 2324,
+      "amount_mean": 1162,
+      "amount_count": 2,
+      "fee_mean": 76.5,
+      "loan_status_mean": 0.5,
+      "term_<lambda>": "long",
+      "annual_income_first": 67215
+    },
+    {
+      "customer_ID": "1528",
+      "amount_sum": 1032,
+      "amount_mean": 1032,
+      "amount_count": 1,
+      "fee_mean": 156,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 34023
+    },
+    {
+      "customer_ID": "1572",
+      "amount_sum": 2569,
+      "amount_mean": 2569,
+      "amount_count": 1,
+      "fee_mean": 108,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 74816
+    },
+    {
+      "customer_ID": "1669",
+      "amount_sum": 458,
+      "amount_mean": 458,
+      "amount_count": 1,
+      "fee_mean": 173,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 72881
+    },
+    {
+      "customer_ID": "1746",
+      "amount_sum": 1659,
+      "amount_mean": 1659,
+      "amount_count": 1,
+      "fee_mean": 33,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 59171
+    },
+    {
+      "customer_ID": "1808",
+      "amount_sum": 221,
+      "amount_mean": 110.5,
+      "amount_count": 2,
+      "fee_mean": 62,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 62299
+    },
+    {
+      "customer_ID": "1870",
+      "amount_sum": 643,
+      "amount_mean": 643,
+      "amount_count": 1,
+      "fee_mean": 96,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 59798
+    },
+    {
+      "customer_ID": "1903",
+      "amount_sum": 1581,
+      "amount_mean": 1581,
+      "amount_count": 1,
+      "fee_mean": 180,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 50325
+    },
+    {
+      "customer_ID": "1953",
+      "amount_sum": 2204,
+      "amount_mean": 2204,
+      "amount_count": 1,
+      "fee_mean": 113,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 78787
+    },
+    {
+      "customer_ID": "2034",
+      "amount_sum": 5196,
+      "amount_mean": 1299,
+      "amount_count": 4,
+      "fee_mean": 115.25,
+      "loan_status_mean": 0.75,
+      "term_<lambda>": "short",
+      "annual_income_first": 74897
+    },
+    {
+      "customer_ID": "2069",
+      "amount_sum": 615,
+      "amount_mean": 615,
+      "amount_count": 1,
+      "fee_mean": 131,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 58477
+    },
+    {
+      "customer_ID": "2088",
+      "amount_sum": 2805,
+      "amount_mean": 1402.5,
+      "amount_count": 2,
+      "fee_mean": 104.5,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 31645
+    },
+    {
+      "customer_ID": "2110",
+      "amount_sum": 404,
+      "amount_mean": 404,
+      "amount_count": 1,
+      "fee_mean": 52,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 72789
+    },
+    {
+      "customer_ID": "2136",
+      "amount_sum": 3048,
+      "amount_mean": 1524,
+      "amount_count": 2,
+      "fee_mean": 120.5,
+      "loan_status_mean": 0.5,
+      "term_<lambda>": "long",
+      "annual_income_first": 62157
+    },
+    {
+      "customer_ID": "2162",
+      "amount_sum": 4256,
+      "amount_mean": 1418.6666666666667,
+      "amount_count": 3,
+      "fee_mean": 113.66666666666667,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 74546
+    },
+    {
+      "customer_ID": "2275",
+      "amount_sum": 256,
+      "amount_mean": 256,
+      "amount_count": 1,
+      "fee_mean": 50,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 62422
+    },
+    {
+      "customer_ID": "2294",
+      "amount_sum": 2304,
+      "amount_mean": 2304,
+      "amount_count": 1,
+      "fee_mean": 125,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 45001
+    },
+    {
+      "customer_ID": "2393",
+      "amount_sum": 7666,
+      "amount_mean": 2555.3333333333335,
+      "amount_count": 3,
+      "fee_mean": 61.333333333333336,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 71526
+    },
+    {
+      "customer_ID": "2464",
+      "amount_sum": 2478,
+      "amount_mean": 2478,
+      "amount_count": 1,
+      "fee_mean": 171,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 44628
+    },
+    {
+      "customer_ID": "2530",
+      "amount_sum": 2222,
+      "amount_mean": 2222,
+      "amount_count": 1,
+      "fee_mean": 106,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 69700
+    },
+    {
+      "customer_ID": "2550",
+      "amount_sum": 2783,
+      "amount_mean": 2783,
+      "amount_count": 1,
+      "fee_mean": 36,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 57268
+    },
+    {
+      "customer_ID": "2696",
+      "amount_sum": 8322,
+      "amount_mean": 1664.4,
+      "amount_count": 5,
+      "fee_mean": 123.2,
+      "loan_status_mean": 0.4,
+      "term_<lambda>": "short",
+      "annual_income_first": 35578
+    },
+    {
+      "customer_ID": "2700",
+      "amount_sum": 599,
+      "amount_mean": 599,
+      "amount_count": 1,
+      "fee_mean": 187,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 76092
+    },
+    {
+      "customer_ID": "2725",
+      "amount_sum": 2186,
+      "amount_mean": 2186,
+      "amount_count": 1,
+      "fee_mean": 135,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 50873
+    },
+    {
+      "customer_ID": "2756",
+      "amount_sum": 723,
+      "amount_mean": 361.5,
+      "amount_count": 2,
+      "fee_mean": 111,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 46157
+    },
+    {
+      "customer_ID": "2888",
+      "amount_sum": 1783,
+      "amount_mean": 891.5,
+      "amount_count": 2,
+      "fee_mean": 89.5,
+      "loan_status_mean": 0.5,
+      "term_<lambda>": "short",
+      "annual_income_first": 68731
+    },
+    {
+      "customer_ID": "2895",
+      "amount_sum": 2174,
+      "amount_mean": 2174,
+      "amount_count": 1,
+      "fee_mean": 165,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 57689
+    },
+    {
+      "customer_ID": "2898",
+      "amount_sum": 2270,
+      "amount_mean": 2270,
+      "amount_count": 1,
+      "fee_mean": 85,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 56076
+    },
+    {
+      "customer_ID": "2904",
+      "amount_sum": 4949,
+      "amount_mean": 2474.5,
+      "amount_count": 2,
+      "fee_mean": 116,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 63914
+    },
+    {
+      "customer_ID": "2917",
+      "amount_sum": 994,
+      "amount_mean": 994,
+      "amount_count": 1,
+      "fee_mean": 125,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 54949
+    },
+    {
+      "customer_ID": "2930",
+      "amount_sum": 2995,
+      "amount_mean": 2995,
+      "amount_count": 1,
+      "fee_mean": 80,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 62154
+    },
+    {
+      "customer_ID": "296",
+      "amount_sum": 2003,
+      "amount_mean": 2003,
+      "amount_count": 1,
+      "fee_mean": 24,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 41557
+    },
+    {
+      "customer_ID": "3015",
+      "amount_sum": 417,
+      "amount_mean": 417,
+      "amount_count": 1,
+      "fee_mean": 48,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 62823
+    },
+    {
+      "customer_ID": "3121",
+      "amount_sum": 1868,
+      "amount_mean": 1868,
+      "amount_count": 1,
+      "fee_mean": 49,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 48384
+    },
+    {
+      "customer_ID": "3200",
+      "amount_sum": 615,
+      "amount_mean": 615,
+      "amount_count": 1,
+      "fee_mean": 42,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 73510
+    },
+    {
+      "customer_ID": "3210",
+      "amount_sum": 2961,
+      "amount_mean": 2961,
+      "amount_count": 1,
+      "fee_mean": 66,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 60852
+    },
+    {
+      "customer_ID": "3249",
+      "amount_sum": 2905,
+      "amount_mean": 2905,
+      "amount_count": 1,
+      "fee_mean": 182,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 62431
+    },
+    {
+      "customer_ID": "3266",
+      "amount_sum": 1694,
+      "amount_mean": 1694,
+      "amount_count": 1,
+      "fee_mean": 177,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 51619
+    },
+    {
+      "customer_ID": "3281",
+      "amount_sum": 309,
+      "amount_mean": 309,
+      "amount_count": 1,
+      "fee_mean": 89,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 75974
+    },
+    {
+      "customer_ID": "3312",
+      "amount_sum": 543,
+      "amount_mean": 543,
+      "amount_count": 1,
+      "fee_mean": 66,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 44831
+    },
+    {
+      "customer_ID": "3368",
+      "amount_sum": 1067,
+      "amount_mean": 1067,
+      "amount_count": 1,
+      "fee_mean": 55,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 35537
+    },
+    {
+      "customer_ID": "3414",
+      "amount_sum": 2644,
+      "amount_mean": 2644,
+      "amount_count": 1,
+      "fee_mean": 106,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 52362
+    },
+    {
+      "customer_ID": "3441",
+      "amount_sum": 794,
+      "amount_mean": 794,
+      "amount_count": 1,
+      "fee_mean": 163,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 37213
+    },
+    {
+      "customer_ID": "3517",
+      "amount_sum": 1716,
+      "amount_mean": 1716,
+      "amount_count": 1,
+      "fee_mean": 76,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 55092
+    },
+    {
+      "customer_ID": "3526",
+      "amount_sum": 842,
+      "amount_mean": 842,
+      "amount_count": 1,
+      "fee_mean": 135,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 46000
+    },
+    {
+      "customer_ID": "3565",
+      "amount_sum": 14005,
+      "amount_mean": 2000.7142857142858,
+      "amount_count": 7,
+      "fee_mean": 70.85714285714286,
+      "loan_status_mean": 0.42857142857142855,
+      "term_<lambda>": "short",
+      "annual_income_first": 76498
+    },
+    {
+      "customer_ID": "3606",
+      "amount_sum": 3502,
+      "amount_mean": 1167.3333333333333,
+      "amount_count": 3,
+      "fee_mean": 80.33333333333333,
+      "loan_status_mean": 0.3333333333333333,
+      "term_<lambda>": "short",
+      "annual_income_first": 63707
+    },
+    {
+      "customer_ID": "3650",
+      "amount_sum": 2972,
+      "amount_mean": 2972,
+      "amount_count": 1,
+      "fee_mean": 52,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 35611
+    },
+    {
+      "customer_ID": "3652",
+      "amount_sum": 1148,
+      "amount_mean": 1148,
+      "amount_count": 1,
+      "fee_mean": 66,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 79510
+    },
+    {
+      "customer_ID": "3826",
+      "amount_sum": 1628,
+      "amount_mean": 1628,
+      "amount_count": 1,
+      "fee_mean": 96,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 63146
+    },
+    {
+      "customer_ID": "3836",
+      "amount_sum": 1488,
+      "amount_mean": 1488,
+      "amount_count": 1,
+      "fee_mean": 44,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 53107
+    },
+    {
+      "customer_ID": "3838",
+      "amount_sum": 2856,
+      "amount_mean": 2856,
+      "amount_count": 1,
+      "fee_mean": 109,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 66824
+    },
+    {
+      "customer_ID": "3858",
+      "amount_sum": 671,
+      "amount_mean": 671,
+      "amount_count": 1,
+      "fee_mean": 154,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 39885
+    },
+    {
+      "customer_ID": "3949",
+      "amount_sum": 3305,
+      "amount_mean": 1652.5,
+      "amount_count": 2,
+      "fee_mean": 146.5,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 53961
+    },
+    {
+      "customer_ID": "3959",
+      "amount_sum": 6972,
+      "amount_mean": 2324,
+      "amount_count": 3,
+      "fee_mean": 155.33333333333334,
+      "loan_status_mean": 0.3333333333333333,
+      "term_<lambda>": "short",
+      "annual_income_first": 52358
+    },
+    {
+      "customer_ID": "4032",
+      "amount_sum": 2361,
+      "amount_mean": 2361,
+      "amount_count": 1,
+      "fee_mean": 144,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 63118
+    },
+    {
+      "customer_ID": "4127",
+      "amount_sum": 2949,
+      "amount_mean": 2949,
+      "amount_count": 1,
+      "fee_mean": 200,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 71869
+    },
+    {
+      "customer_ID": "4236",
+      "amount_sum": 445,
+      "amount_mean": 445,
+      "amount_count": 1,
+      "fee_mean": 108,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 66364
+    },
+    {
+      "customer_ID": "4249",
+      "amount_sum": 396,
+      "amount_mean": 396,
+      "amount_count": 1,
+      "fee_mean": 137,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 70433
+    },
+    {
+      "customer_ID": "4276",
+      "amount_sum": 10383,
+      "amount_mean": 1730.5,
+      "amount_count": 6,
+      "fee_mean": 109.33333333333333,
+      "loan_status_mean": 0.16666666666666666,
+      "term_<lambda>": "long",
+      "annual_income_first": 50915
+    },
+    {
+      "customer_ID": "447",
+      "amount_sum": 438,
+      "amount_mean": 438,
+      "amount_count": 1,
+      "fee_mean": 168,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 62868
+    },
+    {
+      "customer_ID": "451",
+      "amount_sum": 284,
+      "amount_mean": 284,
+      "amount_count": 1,
+      "fee_mean": 169,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 51834
+    },
+    {
+      "customer_ID": "4583",
+      "amount_sum": 1672,
+      "amount_mean": 1672,
+      "amount_count": 1,
+      "fee_mean": 73,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 64470
+    },
+    {
+      "customer_ID": "4665",
+      "amount_sum": 2555,
+      "amount_mean": 2555,
+      "amount_count": 1,
+      "fee_mean": 26,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 33923
+    },
+    {
+      "customer_ID": "467",
+      "amount_sum": 5990,
+      "amount_mean": 1996.6666666666667,
+      "amount_count": 3,
+      "fee_mean": 173.66666666666666,
+      "loan_status_mean": 0.3333333333333333,
+      "term_<lambda>": "short",
+      "annual_income_first": 69972
+    },
+    {
+      "customer_ID": "4821",
+      "amount_sum": 5827,
+      "amount_mean": 1456.75,
+      "amount_count": 4,
+      "fee_mean": 126.75,
+      "loan_status_mean": 0.5,
+      "term_<lambda>": "short",
+      "annual_income_first": 46451
+    },
+    {
+      "customer_ID": "4838",
+      "amount_sum": 626,
+      "amount_mean": 626,
+      "amount_count": 1,
+      "fee_mean": 27,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 47472
+    },
+    {
+      "customer_ID": "4850",
+      "amount_sum": 6388,
+      "amount_mean": 1597,
+      "amount_count": 4,
+      "fee_mean": 147,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 34077
+    },
+    {
+      "customer_ID": "4894",
+      "amount_sum": 2167,
+      "amount_mean": 2167,
+      "amount_count": 1,
+      "fee_mean": 97,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 66009
+    },
+    {
+      "customer_ID": "4937",
+      "amount_sum": 2774,
+      "amount_mean": 2774,
+      "amount_count": 1,
+      "fee_mean": 74,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 60727
+    },
+    {
+      "customer_ID": "4975",
+      "amount_sum": 2168,
+      "amount_mean": 2168,
+      "amount_count": 1,
+      "fee_mean": 27,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 49801
+    },
+    {
+      "customer_ID": "4988",
+      "amount_sum": 1586,
+      "amount_mean": 1586,
+      "amount_count": 1,
+      "fee_mean": 200,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 55708
+    },
+    {
+      "customer_ID": "5023",
+      "amount_sum": 1570,
+      "amount_mean": 1570,
+      "amount_count": 1,
+      "fee_mean": 157,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 60842
+    },
+    {
+      "customer_ID": "5044",
+      "amount_sum": 1135,
+      "amount_mean": 1135,
+      "amount_count": 1,
+      "fee_mean": 152,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 73236
+    },
+    {
+      "customer_ID": "5067",
+      "amount_sum": 1430,
+      "amount_mean": 1430,
+      "amount_count": 1,
+      "fee_mean": 125,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 67733
+    },
+    {
+      "customer_ID": "5149",
+      "amount_sum": 4369,
+      "amount_mean": 2184.5,
+      "amount_count": 2,
+      "fee_mean": 82,
+      "loan_status_mean": 0.5,
+      "term_<lambda>": "long",
+      "annual_income_first": 78806
+    },
+    {
+      "customer_ID": "5181",
+      "amount_sum": 2474,
+      "amount_mean": 2474,
+      "amount_count": 1,
+      "fee_mean": 121,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 48624
+    },
+    {
+      "customer_ID": "5316",
+      "amount_sum": 1254,
+      "amount_mean": 1254,
+      "amount_count": 1,
+      "fee_mean": 112,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 78780
+    },
+    {
+      "customer_ID": "5325",
+      "amount_sum": 1000,
+      "amount_mean": 1000,
+      "amount_count": 1,
+      "fee_mean": 69,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 31528
+    },
+    {
+      "customer_ID": "666",
+      "amount_sum": 1687,
+      "amount_mean": 1687,
+      "amount_count": 1,
+      "fee_mean": 189,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 42456
+    },
+    {
+      "customer_ID": "675",
+      "amount_sum": 4929,
+      "amount_mean": 1643,
+      "amount_count": 3,
+      "fee_mean": 117.33333333333333,
+      "loan_status_mean": 0.3333333333333333,
+      "term_<lambda>": "long",
+      "annual_income_first": 32965
+    },
+    {
+      "customer_ID": "691",
+      "amount_sum": 188,
+      "amount_mean": 188,
+      "amount_count": 1,
+      "fee_mean": 80,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 44557
+    },
+    {
+      "customer_ID": "800",
+      "amount_sum": 1691,
+      "amount_mean": 1691,
+      "amount_count": 1,
+      "fee_mean": 22,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 49583
+    },
+    {
+      "customer_ID": "829",
+      "amount_sum": 2905,
+      "amount_mean": 2905,
+      "amount_count": 1,
+      "fee_mean": 54,
+      "loan_status_mean": 0,
+      "term_<lambda>": "short",
+      "annual_income_first": 39613
+    },
+    {
+      "customer_ID": "853",
+      "amount_sum": 1603,
+      "amount_mean": 1603,
+      "amount_count": 1,
+      "fee_mean": 139,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 79823
+    },
+    {
+      "customer_ID": "870",
+      "amount_sum": 2892,
+      "amount_mean": 2892,
+      "amount_count": 1,
+      "fee_mean": 46,
+      "loan_status_mean": 0,
+      "term_<lambda>": "long",
+      "annual_income_first": 54335
+    },
+    {
+      "customer_ID": "919",
+      "amount_sum": 1759,
+      "amount_mean": 879.5,
+      "amount_count": 2,
+      "fee_mean": 43,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 79307
+    },
+    {
+      "customer_ID": "926",
+      "amount_sum": 926,
+      "amount_mean": 926,
+      "amount_count": 1,
+      "fee_mean": 35,
+      "loan_status_mean": 1,
+      "term_<lambda>": "short",
+      "annual_income_first": 56935
+    },
+    {
+      "customer_ID": "944",
+      "amount_sum": 1039,
+      "amount_mean": 1039,
+      "amount_count": 1,
+      "fee_mean": 104,
+      "loan_status_mean": 1,
+      "term_<lambda>": "long",
+      "annual_income_first": 31991
+    }
+  ]
+}
