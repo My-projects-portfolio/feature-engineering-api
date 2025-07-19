@@ -1,38 +1,90 @@
-# Project Overview: Customer Loan Feature Engineering API
-🧠 Project Objective
-The aim of this project is to build a robust Feature Engineering API that transforms raw customer loan data into structured, machine-learning-ready features. These features are critical for downstream tasks such as default prediction, customer segmentation, and loan forecasting.
+# 🧠 Feature Engineering API + ML Models
 
-Using FastAPI, the project delivers an accessible interface for submitting customer data and retrieving engineered features in real-time — a practical step toward building data-driven decision systems in finance or retail.
+## 📘 Project Overview: Customer Loan Feature Engineering API
 
-🎯 Business Use Case
-Businesses (such as lenders, fintechs, or retailers offering credit) often collect transactional loan data. This data, while rich, must be pre-processed and transformed before it can be used effectively in machine learning models.
+### 🧠 Project Objective
+
+The aim of this project is to build a robust **Feature Engineering API** that transforms raw customer loan data into structured, machine-learning-ready features. These features are critical for downstream tasks such as default prediction, customer segmentation, and loan forecasting.
+
+Using **FastAPI**, the project delivers an accessible interface for submitting customer data and retrieving engineered features in real-time — a practical step toward building **data-driven decision systems** in finance or retail.
+
+---
+
+### 🎯 Business Use Case
+
+Businesses (such as lenders, fintechs, or retailers offering credit) often collect transactional loan data. This data, while rich, must be **pre-processed and transformed** before it can be used effectively in machine learning models.
 
 This API helps automate that transformation by:
+- Aggregating customer-level statistics
+- Engineering new predictive features
+- Returning clean, structured output ready for modeling
 
-Aggregating customer-level statistics
+---
 
-Engineering new predictive features
+### 🔧 Technical Goals
 
-Returning clean, structured output ready for modeling
+- Build a **modular Python service** for automated feature engineering
+- Expose it via **REST API endpoints** using the FastAPI framework
+- Prepare the engineered dataset for ML tasks like classification, regression, and clustering
 
-🔧 Technical Goals
-Build a modular Python service for automated feature engineering
+---
 
-Expose it via REST API endpoints using the FastAPI framework
+### ⚙️ Tech Stack
 
-Prepare the engineered dataset for ML tasks like classification, regression, and clustering
+- **Python 3.8+**
+- **FastAPI**
+- **Pandas**
+- **scikit-learn**
+- **Docker** *(optional)*
 
+---
 
+### 📤 API Endpoints
+
+1. **POST `/features`**  
+   Accepts a JSON file containing customer loan records.  
+   Returns: A JSON response with aggregated customer-level features.
+
+2. **GET `/health`**  
+   A simple health check endpoint.  
+   Returns:  
+   ```json
+   { "status": "UP" }
+   ```
+
+---
+
+### 📥 Input Data
+
+- Format: JSON (`cvas_data.json`)
+- Structure: Each record contains one or more loan entries per customer
+- Fields include:
+  - `customer_ID`
+  - `loan_date`
+  - `amount`
+  - `fee`
+  - `loan_status`
+  - `term`
+  - `annual_income`
+
+---
+
+### 📤 Output Data
+
+- Format: JSON (or saved as CSV internally)
+- Includes aggregated and transformed features per customer
+
+---
 
 ## 🛠️ Features
 
-- Upload customer loan data via a FastAPI endpoint (`/features`)
-- Automatically run feature engineering (aggregate stats per customer)
-- Save cleaned output to CSV
-- Train 3 ML models on the features:
-  - **Classifier** to predict loan default
-  - **KMeans** for customer segmentation
-  - **Linear Regression** for loan forecasting
+- Upload raw JSON loan data via FastAPI
+- Automatically runs feature engineering
+- Returns structured customer-level features
+- Trains 3 ML models:
+  - Classification (loan default)
+  - Clustering (customer segmentation)
+  - Regression (loan size prediction)
 
 ---
 
@@ -41,12 +93,12 @@ Prepare the engineered dataset for ML tasks like classification, regression, and
 ```
 feature-engineering-api/
 ├── app/
-│   ├── main.py              # FastAPI app for feature engineering
-│   ├── ml-models.py         # Runs all 3 ML models
+│   ├── main.py
+│   ├── ml-models.py
 ├── data/
-│   ├── cvas_data.json       # Raw customer + loan input data
-│   ├── customer_features.csv        # Output of feature engineering
-│   └── customer_features_with_cluster.csv # Final output w/ clusters
+│   ├── cvas_data.json
+│   ├── customer_features.csv
+│   └── customer_features_with_cluster.csv
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -56,23 +108,22 @@ feature-engineering-api/
 
 ## 📥 How to Install and Run
 
-### 🔧 1. Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/My-projects-portfolio/feature-engineering-api.git
 cd feature-engineering-api
 ```
 
-### 🐍 2. Create a Virtual Environment
+### 2. Create a Virtual Environment
 
 ```bash
 python -m venv fe_api
-source fe_api/bin/activate   # on macOS/Linux
-# or
-fe_api\Scripts\activate      # on Windows
+source fe_api/bin/activate        # macOS/Linux
+fe_api\Scripts\activate         # Windows
 ```
 
-### 📦 3. Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -80,46 +131,41 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run the FastAPI App
+## 🚀 Run the API
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-Then open: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)  
-Use the interactive Swagger UI to upload `cvas_data.json` and view the engineered features.
+Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) to test the API.
 
 ---
 
-## 🤖 How to Run ML Models
-
-This script trains all 3 ML models and saves results to CSV:
+## 🤖 Run ML Models
 
 ```bash
 python app/ml-models.py
 ```
 
-### You’ll Get:
-- 📈 Classification report (default prediction)
-- 🔍 Cluster labels for each customer
-- 📊 Regression RMSE (loan size prediction)
-- 💾 Final output in: `data/customer_features_with_cluster.csv`
+Outputs:
+- 📈 Classification Report
+- 🔍 Cluster assignments
+- 📊 Regression RMSE
+- 💾 CSV file with features and cluster labels
 
 ---
 
 ## 📦 Requirements
 
 Python 3.8+
-```txt
-fastapi
-uvicorn
-pandas
-scikit-learn
-```
+- fastapi
+- uvicorn
+- pandas
+- scikit-learn
 
 ---
 
-## 📊 Sample ML Output
+## 📊 Sample Output
 
 ```
 📌 Classification Report:
