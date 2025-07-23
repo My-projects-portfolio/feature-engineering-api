@@ -185,8 +185,8 @@ Python 3.8+
 
 ## 🧑‍💻 Author
 
-**Nafiseh Imanian**  
-PhD in Computer Science | Machine Learning Engineer  
+**Nafiseh** – 
+*Machine Learning & Data Science* 
 [GitHub](https://github.com/My-projects-portfolio)
 
 ---
