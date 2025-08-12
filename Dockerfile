@@ -1,9 +1,10 @@
 # Use Python 3.11-slim image as the base
 FROM python:3.11-slim
 
-# Install necessary system dependencies for building pyarrow/fastparquet
+# Install necessary system dependencies for building pyarrow
 RUN apt-get update && apt-get install -y \
     build-essential \
+    cmake \
     gcc \
     g++ \
     libssl-dev \
