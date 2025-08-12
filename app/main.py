@@ -1,14 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
 from fastapi import FastAPI, UploadFile, File
+from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import json
 import io
+import os
 
-# Create the FastAPI app
 app = FastAPI()
 
 # Add CORS middleware to allow requests from all origins
@@ -47,7 +44,7 @@ def process_json_file(content):
     features.columns = ['_'.join(col).strip('_') for col in features.columns]
     features.reset_index(inplace=True)
 
-    return features.to_dict(orient="records")
+    return features
 
 # ---------- ROUTES ----------
 
@@ -61,12 +58,18 @@ def health_check():
 def read_root():
     return {"message": "Hello, World!"}
 
-# Route to process the uploaded file and generate features
+# Route to process the uploaded file and return Parquet file
 @app.post("/features")
 async def generate_features(file: UploadFile = File(...)):
+    # Read the uploaded file
     content = await file.read()
-    result = process_json_file(content)
-    return {"features": result}
-
-
-
+    
+    # Process the JSON file
+    df = process_json_file(content)
+    
+    # Save the processed DataFrame as a Parquet file
+    output_file = "processed_features.parquet"
+    df.to_parquet(output_file)
+    
+    # Return the Parquet file as a downloadable response
+    return FileResponse(output_file, media_type="application/octet-stream", headers={"Content-Disposition": f"attachment; filename={output_file}"})
