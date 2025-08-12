@@ -20,5 +20,6 @@ typing-inspection==0.4.1
 typing_extensions==4.14.1
 tzdata==2025.2
 uvicorn==0.35.0
-fastparquet==0.8.0
+pyarrow==9.0.0
+
 
