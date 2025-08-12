@@ -61,15 +61,18 @@ def read_root():
 # Route to process the uploaded file and return Parquet file
 @app.post("/features")
 async def generate_features(file: UploadFile = File(...)):
-    # Read the uploaded file
-    content = await file.read()
-    
-    # Process the JSON file
-    df = process_json_file(content)
-    
-    # Save the processed DataFrame as a Parquet file
-    output_file = "processed_features.parquet"
-    df.to_parquet(output_file)
-    
-    # Return the Parquet file as a downloadable response
-    return FileResponse(output_file, media_type="application/octet-stream", headers={"Content-Disposition": f"attachment; filename={output_file}"})
+    try:
+        # Read the uploaded file
+        content = await file.read()
+        
+        # Process the JSON file
+        df = process_json_file(content)
+        
+        # Save the processed DataFrame as a Parquet file in the temporary directory
+        output_file = "/tmp/processed_features.parquet"
+        df.to_parquet(output_file)
+        
+        # Return the Parquet file as a downloadable response
+        return FileResponse(output_file, media_type="application/octet-stream", headers={"Content-Disposition": f"attachment; filename={output_file.split('/')[-1]}"})
+    except Exception as e:
+        return {"error": f"An error occurred: {str(e)}"}
