@@ -1,7 +1,11 @@
 # 🧠 Feature Engineering API + ML Models
 
 ## 📘 Project Overview: Customer Loan Feature Engineering API
+## API Documentation
 
+The API documentation can be accessed at:
+
+[Swagger UI - Feature Engineering API](https://feature-engineering-api.onrender.com/docs)
 ### 🧠 Project Objective
 
 The aim of this project is to build a robust **Feature Engineering API** that transforms raw customer loan data into structured, machine-learning-ready features. These features are critical for downstream tasks such as default prediction, customer segmentation, and loan forecasting.
