@@ -1,4 +1,5 @@
 annotated-types==0.7.0
+python-multipart==0.0.5
 anyio==4.9.0
 click==8.2.1
 colorama==0.4.6
